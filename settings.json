@@ -1,22 +1,54 @@
 {
+  "workbench.colorTheme": "Tokyo City Darker",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "focus",
-  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+  "workbench.sideBar.location": "right",
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#b7f978"
+  },
   "editor.formatOnSave": true,
   "editor.lineNumbers": "relative",
   "editor.fontFamily": "Hack NF, 'Courier New', monospace",
   "editor.stickyScroll.enabled": true,
   "editor.inlineSuggest.enabled": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.6,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "phase",
+  "editor.guides.indentation": true,
+  "editor.bracketPairColorization.enabled": true,
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "switch:command"],
+  // Adds line between brackets, braces, etc
+  "editor.guides.bracketPairs": "active",
+  // Language specific settings
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.preferences.quoteStyle": "single",
   "prettier.jsxSingleQuote": true,
-  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "switch:command"],
-  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "window.zoomLevel": 0.9162607406427394,
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 1.4390194395059626,
-  "workbench.sideBar.location": "right",
-  "workbench.view.alwaysShowHeaderActions": true,
-  "workbench.tree.enableStickyScroll": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.wrapTabs": true
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.next": true,
+    "**/.vercel": true,
+    "**/node_modules": true,
+    "**/pnpm-lock.yaml": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/public": true
+  },
+  // Explorer settings, compact folders and expand file nesting 
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.expand": true,
+
+  "git.autofetch": true
 }
