@@ -1,0 +1,22 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "focus",
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "editor.fontFamily": "Hack NF, 'Courier New', monospace",
+  "editor.stickyScroll.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "switch:command"],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1.4390194395059626,
+  "workbench.sideBar.location": "right",
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.wrapTabs": true
+}
