@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift+ctrl+/",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "shift+ctrl+/",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "shift+ctrl+/",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletVisible"
+    },
+    {
+        "key": "shift+ctrl+/",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletVisible"
+    },
+]
